@@ -1,0 +1,36 @@
+.mainSlider {
+    width: auto;
+    border: 3px solid white; 
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    padding: 0 0 10 10px;
+    position: flex;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    z-index: 2;
+}
+
+#intro{
+    min-height: 10px !important;
+}
+.carousel {
+    border-radius: 20px;
+}
+img {
+     /*border-radius: 20px;*/
+}
+#main {
+    border-radius: 0 0 20px 20px;
+}
+#nav {
+    border-radius: 20px 20px 0 0;
+}
+
+#nav ul li:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.heading:hover {
+    color: #007bff !important;
+}
